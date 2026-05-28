@@ -1,0 +1,25 @@
+GREEN
+- normal web / tcp
+
+GREEN (DARK) 
+ - http (unencrypted web traffic)
+
+BLUE (LIGHT)
+ - DNS query (asking "what's the ip for google.com")
+
+BLACK (with red text)
+ - something went wrong (retransmission, packet loss, unstable connections, attacks "ddos") 
+ - {packet never arrived, so it retransmissions the packet}
+
+YELLOW 
+ - windows machine communicating
+
+PURPLE (DARK) 
+ - TCP connections start & end (polite open and close conversation)
+
+RED 
+ - packet itself corrupted (checksum failed, data doesn't match what was sent) 
+ - (packet arrived corrupted)
+
+GRAY
+ - abrupt and forced closed connection from one side.
