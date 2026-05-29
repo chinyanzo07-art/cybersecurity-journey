@@ -1,0 +1,20 @@
+Layer 7 (Application)
+ - Users need an interface to send data
+
+Layer 6 (Presentation)
+ - Data needs to be universal, secure format both sides understand. translates data so that it's readable 
+
+Layer 5 (Session)
+ - conversations need to be tracked so data doesn't get mixed up
+
+Layer 4 (Transport)
+ - Data needs to be broken down, reliably delivered, and reassembled 
+
+Layer 3 (Network)
+ - There needs to be a routhing system to reach any device on earth. Finds the best path to reach target.
+
+Layer 2 (Data link)
+ - Within local network, devices need to identify each other
+
+Layer 1 (Physical)
+ - transmits raw data over a physical medium
